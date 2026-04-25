@@ -108,6 +108,46 @@ button:hover {
   background-color: #3949ab;
 }
 
+.activity-card .participants {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.participants-list {
+  margin-top: 8px;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  padding: 4px 0;
+}
+
+.participant-name {
+  flex-grow: 1;
+}
+
+.delete-icon {
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
+}
+
+.empty-participants {
+  margin-top: 8px;
+  color: #666;
+  font-style: italic;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
